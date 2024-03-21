@@ -134,6 +134,19 @@ h2 {
 
 
 /* Mealplans html */
+aside {
+  width: 50%;
+  float: right;
+  padding-left: 23px;
+}
+
+#bean {
+  width: 600px;
+  height: auto;
+  float: right;
+  padding-left: 35px;
+}
+
 .indhold2
 
 .indhold3 {
@@ -141,15 +154,13 @@ h2 {
   flex-direction: column;
 }
 
-aside {
-  width: 56%;
-  padding-left: 25px;
-  margin-left: 25px;
-  float: right;
-}
-
 /*vejledning html*/
-
+#ghetti {
+  width: 600px;
+  height: auto;
+  float: right;
+  padding-left: 35px;
+}
 
 
 /* Subscribe html */
