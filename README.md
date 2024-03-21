@@ -4,7 +4,7 @@ Here's a quick start for any project.
 
 ## Usage
 
-* Copy the folder named `boilerplate` in your Filemagager
+* Copy the folder named `OnlineMagasin` in your Filemagager
 * Paste the folder somewhere suitable.
 * Rename the folder to something usefull.
 
