@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="MadMakkeren tilbyder SU-venlige madplaner og opskrifter, der balancerer smag og budget. Spar penge uden at gå på kompromis med madglæden!">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> MadMakkeren </title>
+  <link rel="stylesheet" href="css/css.css">
+  <script src="js/js.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="knap">
+      <a href="index.html">
+       <img 
+       id="logo"                
+       src="Images/Logo1.png">
+       </a>
+      <a href="index.html">
+        <h2> MadMakkeren </h2>
+      </a> 
+    </div>
+
+    <nav class="nav-bar">
+      <div class="nav-row">
+        <a href="mealplans.html">
+         <p> MADPLANER </p>
+        </a>
+      </div>
+
+      <div class="nav-row">
+        <a href="recipes.html">
+         <p> OPSKRIFTER </p>
+        </a>
+      </div>
+
+      <div class="nav-row"> 
+        <a href="subscribtion.html">
+          <p> TILMELD</p>
+        </a>
+        </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="overskrift">
+        <h2> Tilmeldelse til din personlige madplan </h2>
+    </div>
+
+    <form action="subscribtionSvar.html">
+        <section id="navn">
+            <i class="fa-solid fa-person"></i>
+            <label for="fname"> Fornavn: </label> <br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <i class="fa-solid fa-people-roof"></i>
+            <label for="lname"> Efternavn: </label> <br>
+            <input type="text" id="lname" name="lname"> <br><br>
+        </section>
+
+        <section id="email">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email"> Indtast din email: </label> <br>
+            <input type="email" id="email" name="email"> <br><br>
+        </section>
+
+        <section id="password">
+            <i class="fa-solid fa-lock"></i>
+            <label for="password"> Kodeord:</label> <br>
+            <input type="password" id="password" name="password"> <br><br>
+        </section>
+
+        <section id="type">
+            <p> Vælg dit type madplan: </p>
+            <input type="radio" id="flexitarisk" name="typemadplan" value="flexitarisk">
+            <label for="flexitarisk"> Flexitarisk </label><br>
+            <input type="radio" id="vegatarisk" name="typemadplan" value="vegetarisk">
+            <label for="vegetarisk"> Vegetarisk </label><br>
+        </section>
+
+        <section id="periode">
+            <p> Vælg din periode for madplan: </p>
+            <input type="radio" id="3-dage" name="peridoem" value="3-dage">
+            <label for="3-dage"> 3-dage </label><br>
+            <input type="radio" id="5-dage" name="peridoem" value="5-dage">
+            <label for="5-dage"> 5-dage </label><br>
+            <input type="radio" id="7-dage" name="peridoem" value="7-dage">
+            <label for="7-dage"> 7-dage </label><br>
+        </section>
+
+        <section id="dagligvarebutik">
+            <p> Vælg din dagligvarebutik </p>
+            <input type="radio" id="butik1" name="butik1" value="rema">
+            <label for="butik1"> Rema 1000 </label><br>
+            <input type="radio" id="butik2" name="butik2" value="coop">
+            <label for="butik2"> Coop </label><br>
+            <input type="radio" id="butik3" name="butik3" value="netto">
+            <label for="butik3"> Netto </label><br>
+            <input type="radio" id="butik4" name="butik4" value="løvbjerg">
+            <label for="butik4"> Løvbjerg </label><br>
+            <input type="radio" id="butik6" name="butik6" value="føtex">
+            <label for="butik6"> Føtex </label><br>
+            <input type="radio" id="butik7" name="butik7" value="bilka">
+            <label for="butik7"> Bilka </label><br><br>
+        </section>
+
+        <section class="submit">
+            <!-- her er den knap, som sender formularen "afsted" -->
+            <input type="submit" value="Tilmeld nu">
+        </section>
+    </form>
+
+  </main>
+  
+</body>
+</html>
