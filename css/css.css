@@ -4,16 +4,15 @@
  **/
 
 /*FONT: MONTSERRAT
-<uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 100 to 900
+  <uniquifier>: Use a unique and descriptive class name
+  <weight>: Use a value from 100 to 900
 
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-*/
+  .montserrat-<uniquifier> {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;}
+  */
 
 
 /* Define variables in the :root */
@@ -144,8 +143,8 @@ h2 {
 
 aside {
   width: 56%;
-  padding-left: 83px;
-  margin-left: 83px;
+  padding-left: 25px;
+  margin-left: 25px;
   float: right;
 }
 
