@@ -126,8 +126,10 @@ h2 {
 
 /* Index html */
 #forside {
-  max-width: 1200px;
+  max-width: 1220px;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 .button {
   display: inline-block;
